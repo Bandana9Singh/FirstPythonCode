@@ -1,0 +1,49 @@
+import turtle
+
+def draw_square():
+    window=turtle.Screen()
+    turtle.speed(10)
+    window.bgcolor("black")
+    brad=turtle.Turtle()
+    
+    brad.speed(10)
+    for i in range(36):
+        brad.color("white")
+        brad.forward(100)
+        brad.left(90)
+        brad.forward(100)
+        brad.left(90)
+        brad.forward(100)
+        brad.left(90)
+        brad.forward(100)
+        brad.left(100)
+        brad.color("yellow")
+        brad.circle(30)
+
+    brad.color("red")
+    for i in range(36):
+        brad.forward(160)
+        brad.left(120)
+        brad.forward(160)
+        brad.left(120)
+        brad.forward(160)
+        brad.left(130)
+
+    brad.color("green")
+    brad.right(90)
+    brad.forward(220)
+
+    for i in range(6):
+        brad.left(120)
+        brad.forward(60)
+        brad.right(50)
+        brad.forward(60)
+        brad.right(130)
+        brad.forward(60)
+        brad.right(50)
+        brad.forward(60)
+    
+        
+    window.exit.click()
+
+draw_square()    
